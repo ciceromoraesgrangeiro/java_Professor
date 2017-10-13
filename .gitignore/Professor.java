@@ -6,11 +6,11 @@ public class Professor{
   public String rg;
   public String cpf;
   
-  public void imprime(Professor aux){
-    System.out.println("Matricula: "+aux.matricula);
-    System.out.println("CPF: "+aux.cpf);
-    System.out.println("RG: "+aux.rg);
-    System.out.println("Nome: "+aux.nome);
+  public void imprime(){
+    System.out.println("Matricula: "+this.matricula);
+    System.out.println("CPF: "+this.cpf);
+    System.out.println("RG: "+this.rg);
+    System.out.println("Nome: "+this.nome);
     System.out.println("----------------------";
   }
 }
