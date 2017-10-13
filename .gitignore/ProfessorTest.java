@@ -16,9 +16,9 @@ public class ProfessorTest{
     prof2.rg="9982-2";
     prof2.matricula="0921c";
     
-    prof.imprime(prof);
+    prof.imprime();
     
-    prof.imprime(prof2);
+    prof2.imprime();
  
    }
 }
